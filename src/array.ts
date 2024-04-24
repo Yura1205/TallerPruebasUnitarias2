@@ -7,3 +7,5 @@ export function arrayContainsValue(arr: any[], value: any): boolean {
 export function arrayNotContainsValue(arr: any[], value: any): boolean {
     return !arr.includes(value);
 }
+
+export const array = ["value1","value2", "value3"];
